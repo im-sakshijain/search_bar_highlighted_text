@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: "Rubik",sans-serif;
+}
+body{
+    margin: auto;
+    padding: 3em;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    
+    background: rgb(207, 222, 221);
+   
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper input{
+    width: 60%;
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: 1px solid #c6c5cc;
+}
+.wrapper button{
+    width: 30%;
+    background-color: #5e82a0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.container p{
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
+}
+mark{
+    background-color: #d6df86;
+}
